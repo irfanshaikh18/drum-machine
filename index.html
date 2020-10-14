@@ -6,21 +6,51 @@
     <title>Drum Machine</title>
     <link rel="stylesheet" href="styles.css" />
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/d847080bee.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Montserrat&display=swap"
+        rel="stylesheet" />
 </head>
 
 <body>
-    <h1 id="title">Drum 🥁 Kit</h1>
-    <div class="set">
-        <button class="w drum">w</button>
-        <button class="a drum">a</button>
-        <button class="s drum">s</button>
-        <button class="d drum">d</button>
-        <button class="j drum">j</button>
-        <button class="k drum">k</button>
-        <button class="l drum">l</button>
-    </div>
+    <main>
+        <div class="settings">
+            <i id="volume-icon" class="fas mute fa-volume-up"></i>
+            <div class="display">Hello, There!</div>
+            <h3>Drum Machine</h3>
+        </div>
+        <div class="drum-box">
+            <div class="row">
+                <button class="a drum">a</button>
+                <button class="s drum">s</button>
+                <button class="d drum">d</button>
+            </div>
+            <div class="row">
+                <button class="f drum">f</button>
+                <button class="g drum">g</button>
+                <button class="h drum">h</button>
+            </div>
+            <div class="row">
+                <button class="j drum">j</button>
+                <button class="k drum">k</button>
+                <button class="l drum">l</button>
+            </div>
+        </div>
+    </main>
 
-    <footer>&copy; Drum Machine | Made by Irfan Shaikh</footer>
+    <footer>
+        <div>
+            <a href="https://www.linkedin.com/in/irfansk/"><i class="social-icons fab fa-linkedin"
+                    title="Linkedin"></i></a>
+            <a href="https://www.instagram.com/_irfan__sk_/"><i class="social-icons fab fa-instagram"
+                    title="Instagram"></i></a>
+            <a href="https://github.com/irfansk-22"><i class="social-icons fab fa-github" title="Github"></i></a>
+        </div>
+        <p class="copywrite">
+            &copy; <span class="year"></span> Drum Machine | Made By Irfan Shaikh
+        </p>
+    </footer>
 
     <script src="index.js"></script>
 </body>
