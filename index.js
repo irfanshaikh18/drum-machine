@@ -2,7 +2,7 @@ var sound = true;
 var count = document.querySelectorAll(".drum").length;
 
 //Mute Sound
-document.querySelector(".mute").addEventListener("click", function () {
+document.getElementById("volume-icon").addEventListener("click", function () {
     if (sound) {
         sound = false;
         document.getElementById("volume-icon").classList.remove("fa-volume-up");
